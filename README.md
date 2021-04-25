@@ -1,19 +1,13 @@
 # Inmana
 
-To start your Phoenix server:
+Uma aplicação feita em Elixir + Phoenix, desenvolvida durante a NLW 5
+O projeto é uma ideia baseada em uma regulamentação onde restaurantes e empresas que trabalham com uso de comida precisam registrar o uso desses alimentos informando em uma etiquea:
+  * Descrição do alimento
+  * Data de validade
+  * Funcionário responsável
+O projeto visa registrar em um banco de dados associando cada produto a um restaurante, e toda semana é enviado um e-mail informando quais produtos estão para vencer na semana
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server`
+## Requisitos
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+* É necessário ter instalado o Elixir em sua máquina
+* Ter o postgres rodando em localhost na porta 5432, com usuário postgres e senha docker, ou altere as informações nos arquivos dev.exs/test.exs dentro da pasta config
